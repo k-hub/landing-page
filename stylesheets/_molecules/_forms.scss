@@ -1,5 +1,5 @@
 .form-group {
-  min-height: 40px;
+  // min-height: 40px;
   position: relative;
   margin-bottom: 10px;
 }
@@ -26,4 +26,16 @@
 	position: relative;
 	margin: 0 auto;
 	max-width: 450px;
+}
+
+.form-group-icon-user::before {
+    @include form-group-icon-styles('\f007');
+}
+
+.form-group-icon-email::before {
+    @include form-group-icon-styles('\f0e0');
+}
+
+.form-group-icon-company::before {
+    @include form-group-icon-styles('\f1ad');
 }

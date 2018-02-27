@@ -21,7 +21,8 @@
 @import	'_molecules/_customer.scss',
 				'_molecules/_containers.scss',
 				'_molecules/_pricing-tier.scss',
-				'_molecules/_navigation.scss';
+				'_molecules/_navigation.scss',
+				'_molecules/_forms.scss';
 
 // Organisms
 @import	'_organisms/_footer.scss';
@@ -34,9 +35,3 @@
 @import	'_helpers/_border-helper.scss',
 				'_helpers/_position-helper.scss',
 				'_helpers/_background-helper.scss';
-
-
-// TODO: fix id="corporate-header-signup" button responsiveness
-img.logo-clover {
-	vertical-align: top;
-}
