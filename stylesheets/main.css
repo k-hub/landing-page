@@ -174,6 +174,10 @@ svg.logo-berry path {
   padding-top: 0;
   padding-bottom: 0; }
 
+p.text-center {
+  font-size: 1.125em;
+  font-weight: 800; }
+
 .border-dashed-left {
   border-left: 1px dashed #ccc; }
 
@@ -560,3 +564,6 @@ svg.logo-berry path {
 .bg-mint {
   background-color: #25D6C9;
   color: #fff; }
+
+img.logo-clover {
+  vertical-align: top; }

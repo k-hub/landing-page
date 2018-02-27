@@ -34,3 +34,9 @@
 @import	'_helpers/_border-helper.scss',
 				'_helpers/_position-helper.scss',
 				'_helpers/_background-helper.scss';
+
+
+// TODO: fix id="corporate-header-signup" button responsiveness
+img.logo-clover {
+	vertical-align: top;
+}
