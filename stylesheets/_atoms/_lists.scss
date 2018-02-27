@@ -1,0 +1,13 @@
+.a-list-bulleted-diamond {
+    list-style-image: url('/assets/icons/diamond.png');
+}
+
+.list-bulleted-checkmark {
+    list-style-image: url('/assets/icons/check.png');
+}
+
+.a-list-bulleted-diamond, .list-bulleted-checkmark {
+    li {
+        padding-left: 0.3125em;
+    }
+}
