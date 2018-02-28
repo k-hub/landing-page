@@ -1,3 +1,13 @@
+$border-helper-lt-mint: #55ede2;
+
 .border-dashed-left {
 	border-left: 1px dashed #ccc;
+}
+
+.border-solid-top {
+	border-top: 1px solid $border-helper-lt-mint;
+}
+
+.border-solid-bottom {
+	border-bottom: 1px solid $border-helper-lt-mint;
 }

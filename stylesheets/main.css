@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .dk-mint {
   color: #003945 !important; }
 
@@ -44,10 +45,17 @@ h4, .h4 {
 h2 {
   font-size: 3.052em;
   color: #003945;
-  font-weight: 800; }
+  font-weight: 800;
+  letter-spacing: -1px; }
 
 .text-large {
   font-size: 1.143em !important; }
+
+.sub-header {
+  font-size: 1.5625em; }
+
+.text-weight-bold {
+  font-weight: 800; }
 
 .btn {
   -webkit-transition: all 125ms ease-in-out;
@@ -105,7 +113,19 @@ svg.logo-berry path {
 
 .illo-tote {
   position: absolute;
-  top: -310px; }
+  top: -290px;
+  left: 0; }
+
+.a-list-bulleted-diamond {
+  list-style-image: url("/assets/icons/diamond.png"); }
+
+.list-bulleted-checkmark {
+  list-style-image: url("/assets/icons/check.png"); }
+
+.a-list-bulleted-diamond, .list-bulleted-checkmark {
+  padding-left: 20px; }
+  .a-list-bulleted-diamond p, .list-bulleted-checkmark p {
+    padding-left: 0.3125em; }
 
 .customer {
   display: -webkit-box;
@@ -155,6 +175,62 @@ svg.logo-berry path {
 #navigation--landing .container {
   padding: 0 !important; }
 
+.form-group {
+  position: relative;
+  margin-bottom: 10px; }
+
+.form-icon .form-group input,
+.form-icon .form-group .form-control {
+  padding-left: 50px;
+  width: 100%; }
+
+#signup-company .form-wrapper .form,
+#signup-accountant .form-wrapper .form {
+  padding: 25px 30px 15px 30px;
+  border: 1px solid #ededee;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-top-color: #ededee;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border-top: 3px solid #1ec4b4;
+  padding: 20px 30px;
+  position: relative;
+  margin: 0 auto;
+  max-width: 450px; }
+
+.form-group-icon-user::before {
+  content: "";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 20px;
+  opacity: 0.2;
+  color: gray; }
+
+.form-group-icon-email::before {
+  content: "";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 20px;
+  opacity: 0.2;
+  color: gray; }
+
+.form-group-icon-company::before {
+  content: "";
+  font-family: FontAwesome;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 0 20px;
+  opacity: 0.2;
+  color: gray; }
+
 #footer {
   margin: 2rem 0;
   font-size: 0.875rem; }
@@ -174,12 +250,48 @@ svg.logo-berry path {
   padding-top: 0;
   padding-bottom: 0; }
 
-p.text-center {
-  font-size: 1.125em;
+@media screen and (max-width: 767px) {
+  #footer .logo {
+    margin: auto; } }
+
+img.logo-clover {
+  vertical-align: top; }
+
+h3 {
   font-weight: 800; }
+
+.gusto-wall {
+  font-size: 1.125em; }
+
+.customer p {
+  color: #fff; }
+
+.benefits {
+  font-size: 1.25em;
+  font-weight: 800;
+  letter-spacing: 1px; }
+  .benefits p {
+    color: #003945;
+    padding-left: 30px; }
+
+.directions {
+  line-height: 1.8; }
+
+@media screen and (max-width: 768px) {
+  .plan {
+    margin-bottom: 30px;
+    border-left: none !important; }
+    .plan .list-bulleted-checkmark {
+      margin-top: 20px !important; } }
 
 .border-dashed-left {
   border-left: 1px dashed #ccc; }
+
+.border-solid-top {
+  border-top: 1px solid #55ede2; }
+
+.border-solid-bottom {
+  border-bottom: 1px solid #55ede2; }
 
 .center-all {
   display: -webkit-box;
@@ -564,6 +676,3 @@ p.text-center {
 .bg-mint {
   background-color: #25D6C9;
   color: #fff; }
-
-img.logo-clover {
-  vertical-align: top; }
